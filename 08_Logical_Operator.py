@@ -22,3 +22,12 @@ print(a_val or b_val)
 print(not a_val)
 # The not operator applies to one condition. 
 # And it reverses the result of that condition, True becomes False and False becomes True.
+
+# Precedence of Logical Operators
+# When you mix the logical operators in an expression, 
+# Python will evaluate them in the order which is called the operator precedence.
+
+# The following shows the precedence of the not, and, and or operators:
+# not	 ->   High
+# and	 ->   Medium
+# or	 ->   Low
