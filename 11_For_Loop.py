@@ -31,3 +31,40 @@ for index in range(1,11,2):
 fruits = ['apple','banana','orange','grapes','dates']
 for name in fruits :
     print(name,end=' ')
+
+
+##### Python for else statement #####
+# In Python, the for statement can have an optional else clause, 
+# which you may not be familiar with especially if you’re coming from other languages such as Java or C#.
+
+# The following shows the syntax of the for statement with the else clause:
+
+# for item in iterables:
+#     # process item 
+# else:
+#     # statement
+
+# In this syntax, the else clause will execute only if the loop runs normally. 
+# In other words, the else clause won’t execute if the loop encounters a break statement.
+# In addition, the else clause also executes when the iterables object has no item.
+
+
+# people = [{'name': 'John', 'age': 25},
+#         {'name': 'Jane', 'age': 22},
+#         {'name': 'Peter', 'age': 30},
+#         {'name': 'Jenifer', 'age': 28}]
+
+# name = input('Enter a name:')
+
+# for person in people:
+#     if person['name'] == name:
+#         print(person)
+#         break
+# else:
+#     print(f'{name} not found!')
+
+# By using the for else statement, the program doesn’t need to use a flag and an if statement after the loop.
+# In this new program, if the input name matches a person on the list, 
+# it’ll show the person’s information and exit the loop by using the break statement.
+
+# When the loop encounters the break statement, the else clause won’t execute.
